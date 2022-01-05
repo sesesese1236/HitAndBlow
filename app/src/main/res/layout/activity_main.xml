@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/input6"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:onClick="AnswerInput"
+        android:text="6"
+        app:layout_constraintBottom_toBottomOf="@+id/input5"
+        app:layout_constraintStart_toEndOf="@+id/input5"
+        app:layout_constraintTop_toTopOf="@+id/input5"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/input2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:onClick="AnswerInput"
+        android:text="2"
+        app:layout_constraintBottom_toTopOf="@+id/input5"
+        app:layout_constraintEnd_toEndOf="@+id/input5"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/input5" />
+
+    <Button
+        android:id="@+id/input5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:onClick="AnswerInput"
+        android:text="5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/input4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="20dp"
+        android:onClick="AnswerInput"
+        android:text="4"
+        app:layout_constraintBottom_toBottomOf="@+id/input5"
+        app:layout_constraintEnd_toStartOf="@+id/input5"
+        app:layout_constraintTop_toTopOf="@+id/input5"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/input8"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:onClick="AnswerInput"
+        android:text="8"
+        app:layout_constraintEnd_toEndOf="@+id/input5"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/input5"
+        app:layout_constraintTop_toBottomOf="@+id/input5" />
+
+    <Button
+        android:id="@+id/input3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:onClick="AnswerInput"
+        android:text="3"
+        app:layout_constraintBottom_toBottomOf="@+id/input2"
+        app:layout_constraintStart_toEndOf="@+id/input2"
+        app:layout_constraintTop_toTopOf="@+id/input2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/input1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="20dp"
+        android:onClick="AnswerInput"
+        android:text="1"
+        app:layout_constraintBottom_toBottomOf="@+id/input2"
+        app:layout_constraintEnd_toStartOf="@+id/input2"
+        app:layout_constraintTop_toTopOf="@+id/input2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/input9"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:onClick="AnswerInput"
+        android:text="9"
+        app:layout_constraintBottom_toBottomOf="@+id/input8"
+        app:layout_constraintStart_toEndOf="@+id/input8"
+        app:layout_constraintTop_toTopOf="@+id/input8"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/input7"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="20dp"
+        android:onClick="AnswerInput"
+        android:text="7"
+        app:layout_constraintBottom_toBottomOf="@+id/input8"
+        app:layout_constraintEnd_toStartOf="@+id/input8"
+        app:layout_constraintTop_toTopOf="@+id/input8"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/input0"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:onClick="AnswerInput"
+        android:text="0"
+        app:layout_constraintEnd_toEndOf="@+id/input8"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/input8"
+        app:layout_constraintTop_toBottomOf="@+id/input8" />
+
+    <Button
+        android:id="@+id/row1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:onClick="select"
+        app:layout_constraintBottom_toBottomOf="@+id/row2"
+        app:layout_constraintEnd_toStartOf="@+id/row2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/row2" />
+
+    <Button
+        android:id="@+id/row2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:onClick="select"
+        app:layout_constraintEnd_toEndOf="@+id/textTry"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toStartOf="@+id/textTry"
+        app:layout_constraintTop_toBottomOf="@+id/textTry" />
+
+    <Button
+        android:id="@+id/row3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:onClick="select"
+        app:layout_constraintBottom_toBottomOf="@+id/row2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/row2"
+        app:layout_constraintTop_toTopOf="@+id/row2" />
+
+    <TextView
+        android:id="@+id/textHit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hit:"
+        app:layout_constraintBottom_toBottomOf="@+id/textTry"
+        app:layout_constraintEnd_toStartOf="@+id/textTry"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textTry"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textBlow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blow:"
+        app:layout_constraintBottom_toBottomOf="@+id/textTry"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textTry"
+        app:layout_constraintTop_toTopOf="@+id/textTry"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:onClick="levelCreate"
+        android:text="Restart"
+        app:layout_constraintBottom_toBottomOf="@+id/input0"
+        app:layout_constraintEnd_toStartOf="@+id/input0"
+        app:layout_constraintTop_toTopOf="@+id/input0"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btnCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:onClick="checkHitBlow"
+        android:text="Check"
+        app:layout_constraintBottom_toBottomOf="@+id/input0"
+        app:layout_constraintStart_toEndOf="@+id/input0"
+        app:layout_constraintTop_toTopOf="@+id/input0"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textTry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="Try:"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
